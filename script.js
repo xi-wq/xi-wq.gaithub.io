@@ -49,10 +49,10 @@ noButton.addEventListener("click", function () {
   }
 
   // 图片变化（前 5 次变化）
-  if (clickCount === 1) mainImage.src = "images/6cdba785a7baaa0bc30406121e90b53"; // 震惊
-  if (clickCount === 2) mainImage.src = "images/微信图片_20250323212418"; // 思考
+  if (clickCount === 1) mainImage.src = "images/6cdba785a7baaa0bc30406121e90b53.jpg"; // 震惊
+  if (clickCount === 2) mainImage.src = "images/微信图片_20250323212418.lpg"; // 思考
   if (clickCount === 3) mainImage.src = "images/angry.png"; // 生气
-  if (clickCount === 4) mainImage.src = "images/微信图片_20250323212434"; // 哭
+  if (clickCount === 4) mainImage.src = "images/微信图片_20250323212434.jpg"; // 哭
   if (clickCount >= 5) mainImage.src = "images/crying.png"; // 之后一直是哭
 });
 
@@ -66,7 +66,7 @@ yesButton.addEventListener("click", function () {
   document.body.innerHTML = `
         <div class="yes-screen">
             <h1 class="yes-text"></h1>
-            <img src="images/s/微信图片_20250323212" alt="拥抱" class="yes-image">
+            <img src="images/s/微信图片_20250323212.jpg" alt="拥抱" class="yes-image">
         </div>
     `;
 
